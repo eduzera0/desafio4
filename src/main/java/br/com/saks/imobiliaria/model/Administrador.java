@@ -5,6 +5,7 @@
  */
 package br.com.saks.imobiliaria.model;
 
+import static br.com.saks.imobiliaria.controller.AdministradorController.getSHA256;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

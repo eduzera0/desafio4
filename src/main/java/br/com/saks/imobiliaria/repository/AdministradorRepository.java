@@ -13,7 +13,6 @@ import org.springframework.stereotype.Repository;
  *
  * @author 7839677
  */
-@Repository
 public interface AdministradorRepository extends JpaRepository<Administrador, Long>{
     
 }

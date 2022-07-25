@@ -5,6 +5,7 @@
  */
 package br.com.saks.imobiliaria.model;
 
+import static br.com.saks.imobiliaria.controller.AdministradorController.getSHA256;
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -40,7 +41,5 @@ public class Cliente {
     
     @Column(length=15)
     private String telefone;
-    
-    
     
 }
